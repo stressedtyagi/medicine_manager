@@ -43,13 +43,14 @@
     <head>
         <meta charset = "utf-8">
         <?php include "elements/head.php"?>
-        <title>Login| Medicine App</title>
+        <title>Login | Medicine App</title>
     </head>
 <body>  
     <?php include "elements/navbar.php"?>
     <div class="container">
         <div class="row">
             <div class="col-md-offset-4 col-md-4">
+                <img src="favicon.png" style="width:20%;" class="img-responsive center-block" alt="logo">
                 <h3 class="text-center">Login</h3>
 
                 <?php if(!empty($err_msg['login'])): ?>

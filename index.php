@@ -10,7 +10,7 @@
 <head>
     <meta charset="utf-8" />
     <?php include "elements/head.php"?>
-    <title>Home| Medicine App</title>
+    <title>Home | Medicine App</title>
 </head>
 <body>
     <?php include "elements/navbar.php"?>
