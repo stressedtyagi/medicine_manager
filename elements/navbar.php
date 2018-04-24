@@ -5,7 +5,7 @@
         </div>
         <?php if(isset($_SESSION['USER'])):?>
         <ul class="nav navbar-nav">
-            <li><a href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Get Token </a></li>
+            <li><a href="elements/getToken.php"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Get Token </a></li>
             <li><a href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Add Medicine </a></li>
             <li><a href="#"> Beneficiary Corner </a></li>
             <li><a href="#"> Downloads </a></li>
